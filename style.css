@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    background-color: #9a8c98;
+    height: 4rem;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+}
+
+
+.choice:hover{
+    background-color: #9a8c98;
+
+    cursor: pointer;
+
+}
+.choice{
+    height: 165px;
+width: 165px;
+border-radius: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0.5px;
+
+
+
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    /* margin-top: 2rem; */
+    border-radius: 50%;
+}
+@media(max-width:700px){
+    .choice img{
+        height: 70px;
+        width: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+  position: relative;
+  right: 25px;
+}
+body h1{
+    font-size: 20px;
+    text-align: center;
+}
+.icons a{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 19px;
+}
+.choice{
+    height: 90px;
+width: 90px;
+border-radius: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+.userscore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 1rem;
+}
+#user-score{
+font-size: 30px;
+font-weight: bold;
+}
+#comp-score{
+   font-size: 30px;
+   font-weight: bold;
+}
+.msg-area{
+    margin-top: 3rem;
+}
+.msg{
+    background-color: #9a8c98;
+    display: inline;
+    padding: 1rem;
+    border-radius: 10px;
+  
+}
+
+
+
+.icons a{
+    display: inline-block;
+   
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+    text-decoration: none;
+    color: rgb(4, 243, 187);
+    font-size: 25px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color:  #9a8c98;
+    margin-top: 5rem;
+ 
+
+
+
+
+
+}
+
+.icons a:hover {
+    background-color: rgb(193, 109, 109);
+}
+.hero p{
+    background-color: #dfdfdf;
+    display: inline;
+    
+}
+
+
+
